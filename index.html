@@ -1,18 +1,131 @@
-<!DOCTYPE html>
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>My Portfolio|Responsive Web Design</title>
+    <link rel="stylesheet" href="styles.css">
+
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <div class="toggle"></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </header>
+    <section class="banner">
+      <div class="textbx">
+        <h2>Hello,I'm<br><span> Firdaus.</span></h2>
+        <h3>Fullstack Developer.</h3>
+        <a href="#" class="button">About me</a>
+      </div>
+    </section>
+    <section class="about">
+      <div class="heading">
+      <h2>About me</h2>
+      <div class="content">
+        <div class="contentbox w50">
+          <h3>Fullstack Developer.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum quia distinctio quod est
+             blanditiis, quis itaque sit nam explicabo odit
+              dignissimos accusantium natus ad hic impedit nobis ea laborum harum!</p><br><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem quos unde placeat voluptatibus adipisci sed veritatis libero reiciendis? Ducimus provident sapiente fugiat blanditiis! Inventore, esse totam! Magni repellendus architecto necessitatibus.</p>
+        </div>
+        <div class="w50">
+          <img src="images/img1.jpg" class="img">
+        </div>
+      </div>
+      <section class="services">
+        <div class="heading white">
+          <h2>My services</h2>
+          <p>Lorem, ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            </p>
+        </div>
+        <div class="content">
+          <div class="servicebx">
+            <img src="images/icon1.png">
+            <h2>programming</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum suscipit eligendi placeat ullam facilis corrupti consequatur? Molestiae dignissimos mollitia qui! Fuga voluptatem, amet quaerat dignissimos eaque distinctio praesentium animi.</p>
+          </div>
+      
+        
+        <div class="servicebx">
+          <img src="images/icon2.png">
+          <h2>Database</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum suscipit eligendi placeat ullam facilis corrupti consequatur? Molestiae dignissimos mollitia qui! Fuga voluptatem, amet quaerat dignissimos eaque distinctio praesentium animi.</p>
+        </div>
+  
+      
+      <div class="servicebx">
+        <img src="images/icon3.png">
+        <h2>Designing</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum suscipit eligendi placeat ullam facilis corrupti consequatur? Molestiae dignissimos mollitia qui! Fuga voluptatem, amet quaerat dignissimos eaque distinctio praesentium animi.</p>
+      </div>
+    </div>
+      </section>
+      <section class="works">
+        <div class="heading">
+          <h2>My Portfolio</h2>
+          <p>Lorem, ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            </p>
+            <div class="workbx">
+              <img src="images/product1.jpg">
+            </div>
+            <div class="workbx">
+              <img src="images/product2.jpg">
+            </div>
+            <div class="workbx">
+              <img src="images/product3.jpg">
+            </div>
+            <div class="workbx">
+              <img src="images/product4.jpg">
+            </div><div class="heading">
+              <a href="#" class="button">View More</a>
+  
+            </div>
+      </section>
+      <section class="testimonial">
+        <div class="heading">
+          <h2>testimonial</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum suscipit eligendi placeat ullam facilis corrupti consequatur? Molestiae dignissimos mollitia qui! Fuga voluptatem, amet quaerat dignissimos eaque distinctio praesentium animi.</p>
+        </div>
+        <div class="content">
+          <div class="testimonialbx">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus libero quos aliquam eum hic sunt ducimus vero sed nobis excepturi? </p>
+            <h3>John doe<br><span>Creative designer</span></h3>
+          </div>
+          <div class="content">
+            <div class="testimonialbx">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus libero quos aliquam eum hic sunt ducimus vero sed nobis excepturi? </p>
+              <h3>John doe<br><span>Creative designer</span></h3>
+            </div>
+        </div>
+
+
+
+      </section>
+        <script type="text/javascript">
+        window.addEventListener(scroll,function(){
+          var header = document.querySelector('header');
+          header.classList.toggle(sticky,window.scrollY>0);
+        })
+        </script>
+      
+    </div>
+    </section>
+   
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

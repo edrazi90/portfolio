@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',San-Serif;
+
+}
+
+section
+{
+    padding: 100px;
+}
+
+
+.banner
+{
+
+ position: relative;
+ min-height: auto;
+ background: url(images/banner.jpg);
+ background-size: cover;
+ background-position: right;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.banner.h2
+{
+
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+
+.banner.h3
+{
+
+    font-size: 3em;
+    color: azure;
+    font-weight: 500;
+    line-height: 1.2em;
+}
+.button
+{
+    position: relative;
+    background: #2196f3;
+    color: #f7f7f7;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+}
+
+header
+{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky
+{
+
+    background: #ffffff;
+    padding: 20px 100px;
+    box-shadow: 0.5px 20px rgba (0,0,0,0.1);
+
+
+
+
+}
+header.logo
+{
+
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header.sticky.logo
+{
+    color: #111111;
+
+}
+header ul
+{
+
+    position: relative;
+    display: flex;
+
+}
+
+header ul li
+{
+ position: relative;
+ list-style: none;
+
+}
+
+header ul li a
+{
+    position: relative;
+    display: inline-block;
+    margin: 0.15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header.sticky ul li a
+{
+    color: #111111;
+
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contentbox h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.w50
+{
+
+    min-width: 50%;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.services
+{
+    background: #ffffff;
+
+}
+
+.heading.white
+{
+    color: #ffffff;
+
+
+}
+
+.services.content
+{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.services.content.servicebx
+{
+
+    padding: 40px 20px;
+    background: #222222;
+    color: #ffffff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.services.content.servicebx:hover
+{
+    background: #2196f3;
+
+}
+
+.services.content.servicebx img
+{
+    max-width: 80px;
+    filter: invert(1);
+
+}
+
+.services.content.servicebx h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.works.content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.works.content.workbx
+{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.works.content.workbx img
+{
+    max-width: 100%;
+
+
+}
+
+.testimonial
+{
+    background: #f7f7f7;
+
+}
+
+.testimonial.content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.testimonial.content.testimonialbx
+{
+
+    max-width: calc(50%-40%);
+    padding: 60px 40px;
+    margin: 20px;
+    background: #2196f3;
+}
+
+.testimonial.content.testimonialbx p
+{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.testimonial.content.testimonialbx h3
+{
+    margin-top: 40px;
+    text-align: end;
+    color: #ffffff;
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: 300;
+}
