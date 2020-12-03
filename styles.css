@@ -82,8 +82,8 @@ header
 header.logo
 {
 
-    color: #ffffff;
-    font-size: 30px;
+    color: #f7f7f7;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
@@ -161,13 +161,14 @@ header.sticky ul li a
 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-justify: inter-word;
 
 }
 
 .w50
 {
 
-    min-width: 50%;
+    max-width: 40%;
 }
 
 img
@@ -177,15 +178,13 @@ img
 
 .services
 {
-    background: #f7f7f7;
+    background: #929292;
 
 }
 
 .heading.white
 {
-    color: #ffffff;
-
-
+    color: #f7f7f7;
 }
 
 .services.content
@@ -204,8 +203,8 @@ img
     background: #222222;
     color: #ffffff;
     max-width: 340px;
-    margin: 20px;
-    text-align: center;
+    margin: 40px;
+    text-align: justify;
     transition: 0.5s;
 }
 
@@ -218,7 +217,7 @@ img
 .services.content.servicebx img
 {
     max-width: 80px;
-    filter: invert(1);
+    filter: invert;
 
 }
 
@@ -245,14 +244,14 @@ img
 
 .works.content.workbx img
 {
-    max-width: 50%;
+    max-width: 40%;
 
 
 }
 
 .testimonial
 {
-    background: #f7f7f7;
+    background: #a8a5a5;
 
 }
 
@@ -265,7 +264,7 @@ img
 
 }
 
-.testimonial.content.testimonialbx
+.testimonial.content.testimonialbox
 {
 
     max-width: calc(50%-40%);
@@ -274,21 +273,84 @@ img
     background: #2196f3;
 }
 
-.testimonial.content.testimonialbx p
+.testimonial.content.testimonialbox p
 {
-    color: #111111;
+    color: #f7f7f7;
     font-style: italic;
     font-size: 16px;
     font-weight: 300;
 
 }
 
-.testimonial.content.testimonialbx h3
+.testimonial.content.testimonialbox h3
 {
     margin-top: 40px;
     text-align: end;
-    color: #111111;
+    color: #f7f7f7;
     line-height: 1em;
     font-size: 20px;
     font-weight: 300;
 }
+
+
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+  .footer p {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    text-align: center;
+  }
