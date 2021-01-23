@@ -229,23 +229,26 @@ img
 }
 .works.content
 {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    padding-left: 20;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 10;
 
 }
 
 .works.content.workbx
 {
-    width: 50%;
+    width: 20%;
     padding: 20px;
+    box-sizing: border-box;
 
 }
 
 .works.content.workbx img
 {
-    max-width: 40%;
-
+    max-width: 10%;
+    border-image-width: 10%;
 
 }
 
