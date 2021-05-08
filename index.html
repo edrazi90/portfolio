@@ -22,6 +22,9 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#">Contact Me</a></li>
       </ul>
+      <script>
+        src="scroll.js"
+      </script>
     </header>
     <section class="banner" id="home">
       <div class="textbx">
@@ -38,7 +41,7 @@
             <h3>Technology Enthusianist</h3>
             <p>I always find interest on getting the of Technological advancement. Follow me as I venture into Information Security
                and working it all to get my hands dirty in Programming and Software Development process! </p><br><br>
-                <p>"Live life at your fullest, because you never know what tomorrow's gonna bring to you!"</p>
+                <p>"Live life at your fullest, because you never know what tomorrow's gonna bring you!"</p>
           </div>
           <div class="w50">
             <img src="images/img36.jpg" class="img">
@@ -76,21 +79,23 @@
         </div>
       </section>
       <section class="works" id="works">
-        <div class="heading">
+        <div class="heading white">
           <h2>My Projects</h2>
           <p>Here's my current and completed projects:</p>
-            <div class="workbx">
+          <div class="content">
+            <div class="servicebx">
               <img src="images/product1.png"class="img">
+              <h2>QuizzTime</h2>
             </div>
-            <div class="workbx">
+            <div class="servicebx">
               <img src="images/product2.png" class="img">
+              <h2>WindMill:Ride-sharing application</h2>
             </div>
-            <div class="workbx">
+            <div class="servicebx">
               <img src="images/product3.png"class="img">
+              <h2><a class="text" href="#">Athaur:Portfolio site</a></h2>
             </div>
-            <div class="heading">
-              <a href="#" class="button">View More</a>
-            </div>
+          </div>
       </section>
       <section class="testimonial">
         <div class="heading white">
@@ -137,5 +142,6 @@
           header.classList.toggle(sticky,window.scrollY>0);
         });
         </script>
+       
   </body>
 </html>
